@@ -64,7 +64,7 @@ module MultipartParser
     end
 
     class Part
-      attr_accessor :filename, :headers, :name, :mime
+      attr_accessor :filename, :headers, :name, :mime, :field
 
       def initialize
         @headers = {}
